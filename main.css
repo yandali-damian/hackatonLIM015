@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav{
@@ -24,3 +25,94 @@
     display: inline-flex;
     margin-right: 70px;
 }
+/* Contenedor Principal */
+.main-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.title-container{
+    color: rebeccapurple;
+}
+.text-container{
+    padding: 20px 40px;
+}
+.picture-container{
+    display: flex;
+    justify-content: center;
+}
+.main-picture{
+    width: 30%;
+}
+/***********FOOTER***************/
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #010114fd;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 2rem 0;
+    
+}
+
+.socials li {
+    margin: 0 15px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 2.5rem;
+    transition: color .3s ease;
+    cursor: url('/src/images/dedo.cur'), auto;
+
+}
+
+.socials a:hover i {
+    color: rgb(192, 55, 197);
+}
+
+.footer-bottom {
+    background: rgb(42, 39, 65);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+}
+
