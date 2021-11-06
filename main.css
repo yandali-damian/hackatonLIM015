@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Contenedor Principal */
+.main-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.title-container{
+    color: rebeccapurple;
+}
+.text-container{
+    padding: 20px 40px;
+}
+.picture-container{
+    display: flex;
+    justify-content: center;
+}
+.main-picture{
+    width: 30%;
+}
